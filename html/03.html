@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테이블</title>
+</head>
+<body>
+    <table border="1" style="border-collapse:collapse;" cellpadding="10"> <!-- style="border-collapse:collapse;" => 2줄보이는거 방지 -->
+        <caption>제목 : 나라이름</caption>
+        <colgroup>
+          <col width="200">
+          <col width="500">
+          <!-- <col width="100"> -->
+        </colgroup>
+        <thead>
+            <tr>
+                <th>나라명</th>
+                <th>인구수</th>
+                <th>추 천 수 ::: </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>한국</td>
+                <td>45000000</td>
+                <td rowspan="2">5</td>
+            </tr>
+            <tr>
+                <td>대만</td>
+                <td>20000000</td>
+                <!-- <td>2</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">감사합니다.</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+https://github.com/minbattergo/HtmlNCss.git
+
+echo "# HtmlNCss" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/minbattergo/HtmlNCss.git
+git push -u origin main
+
+==============================================================
+git remote add origin https://github.com/minbattergo/HTMLCSS.git
+git branch -M main
+git push -u origin main
+==============================================================
+
+카페
+ - https://cafe.naver.com/weekend101
+
+Do it! HTML5+CSS3 웹 표준의 정석
+ - http://github.com/kyrieko/html5-book-9
+
+강좌
+ - http://www.opentutorials.org/course/1665/9340
+
+<iframe> : 페이지내에 페이지 포함(예 : 지도)
+<div> , <span> 의 차이
+
+<h1> ~ <h6> 중요도 차이에 따라쓴다
+&nbsp; -> 한칸 공백을 띠어줌
+
+a태그 target의 기본값 self
+
+element, property
+
+inline 성격의 태크는 텍스트와 동일하다. (a, span, strong,  form) tag
+
+selet box option은 css 적용이 않됨
+
+Vscode 
+   live server, Beautify, Code 하이라이트
