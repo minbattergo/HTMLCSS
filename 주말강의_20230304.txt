@@ -1,8 +1,0 @@
-html : 
-       화면 구성및 디자인
-css : 
-      class를 많이 쓴다. 태그의 우선순위를 잘 고려해야된다
-      우선순위 id > class > tag
-
-      구글 무료폰트
-       https://fonts.google.com/ 
