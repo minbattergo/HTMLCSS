@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5번째 강습</title>
+    <style>
+        body { 
+               height: 3000px;
+               background-image: url(images/bg3.png);
+               background-repeat: no-repeat;
+               background-position: right bottom;
+               background-attachment: fixed;
+             }
+        .box { width: 500px; 
+               height: 500px; 
+               border: 1px solid red; 
+               margin: 0 auto;
+               background-color: brown;
+               background-image: url(images/bg2.png);
+               background-repeat: no-repeat;
+               /* background-repeat: repeat-x; */
+               /* background-repeat: repeat-y; */
+               /* background-position: center bottom;  /* 기본값 left top */
+               /* background-position: 50px 100px;     /* 가로 세로 순서 */
+               /* background-size: contain; */
+               background-size: 20%;
+               margin-bottom: 50px; /* margin이 겹치면 둘중 큰거 하나만 적용됨*/
+             }
+
+        .box2 { width: 800px; height: 300px; border: 1px solid blue;
+                /* margin-top: 50px;   /* margin이 겹치면 둘중 큰거 하나만 적용됨*/
+                /* margin-left: auto;
+                margin-right: auto; */
+                margin: 50px auto 0;
+
+                /* background-image: linear-gradient(to right, red, yellow ,blue); /* 방향, 컬러 ... */
+                /* background-image: linear-gradient(45deg, red, yellow ,blue); /* 방향, 컬러 ... */
+                background-image: url(images/bg1.jpg), radial-gradient(circle, red , blue); /* 순서주의 먼저쓰면 위로 올라옴 */
+                /* background-image: url(images/bg1.jpg); */
+                background-repeat: no-repeat;
+             }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+</body>
+</html>

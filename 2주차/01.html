@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1번째 실습</title>
+
+    <style>
+        /* !important > #아아디 > .클래스 > 태그 -- 좀더 구체적인 선택자 경로가 명시되면 순위가 높다 */
+
+       /* body { font-size: 32px; } */
+       li { color:blue !important; } /* !important => 최우선 순위 */
+       .item { color : orange; }
+       #text { color : violet; }
+       li#text { color : crimson; }
+       .item2 { background-color: brown; }
+       li.item2 { background-color: darkgreen; }
+       ul li { color: deepskyblue; } /* ul 박스아래 li 라는 의미  */
+       .wrap { font-size: 32px; color:red;}
+       a {color: red; }
+    </style>
+
+</head>
+<body>
+
+    <div class="wrap">
+        <a href="#">바로가기</a>
+        <h1>CSS 문법</h1>
+        <ul>
+            <li>아이디 선택자</li>
+            <li class="item" id="text">클래스 선택자</li>
+            <li class="item2">태그  선택자</li>
+            <li>마지막 태그  선택자</li>
+        </ul>
+
+    </div>
+    
+
+</body>
+</html>
